@@ -21,9 +21,9 @@ where:
 
 For a fair die,
 
-$$
+$
 X\in\{1,2,3,4,5,6\}
-$$
+$
 
 and each outcome has probability \(1/6\).
 
