@@ -9,7 +9,7 @@ title: Conditional Expectation
 
 The **expectation (expected value)** of a random variable represents its long-run average value.
 
-For a discrete random variable `X`,
+For a discrete random variable $X$,
 
 
 
@@ -21,8 +21,8 @@ $$
 
 where:
 
-- `x` = a possible value of `X`
-- `P(X=x)` = probability that `X` takes the value `x`
+- $x$ = a possible value of $X$
+- $P(X=x)$ = probability that $X$ takes the value $x$
 
 ### Example
 
@@ -74,7 +74,7 @@ $$
 
 **Conditional expectation** is the expected value of a random variable when some additional information or condition is known.
 
-If `A` is an event, then
+If $A$ is an event, then
 
 
 
@@ -96,7 +96,7 @@ $$
 
 
 
-means the expected value of `X` without any additional information.
+means the expected value of $X$ without any additional information.
 
 Whereas,
 
@@ -108,7 +108,7 @@ $$
 
 
 
-means the expected value of `X`, given that event `A` has occurred.
+means the expected value of $X$, given that event $A$ has occurred.
 
 ---
 
@@ -140,7 +140,7 @@ $$
 
 
 
-If `X=x` automatically satisfies event `A`, then
+If $X=x$ automatically satisfies event $A$, then
 
 
 
@@ -160,13 +160,13 @@ $$
 
 
 
-for those values of `x` that satisfy `A`.
+for those values of $x$ that satisfy $A$.
 
 ---
 
 # 4. Solved Example
 
-Suppose the probability distribution of `X` is:
+Suppose the probability distribution of $X$ is:
 
 | X | P(X=x) |
 |---:|---:|
@@ -241,7 +241,7 @@ $$
 
 ### Step 2: Normalize the probabilities
 
-For `X=3`,
+For $X=3$,
 
 
 
@@ -251,7 +251,7 @@ $$
 
 
 
-For `X=4`,
+For $X=4$,
 
 
 
@@ -311,7 +311,7 @@ $$
 
 # 5. Conditional Expectation Given Another Random Variable
 
-Suppose `X` and `Y` are two random variables.
+Suppose $X$ and $Y$ are two random variables.
 
 The expression
 
@@ -367,13 +367,13 @@ $$
 
 
 
-is the **joint probability** that `X=x` and `Y=y` occur together.
+is the **joint probability** that $X=x$ and $Y=y$ occur together.
 
 ---
 
 # 6. Solved Example with Two Random Variables
 
-Suppose `X` represents marks and `Y` represents study hours.
+Suppose $X$ represents marks and $Y$ represents study hours.
 
 | Y | X | Joint Probability |
 |---:|---:|---:|
@@ -392,7 +392,7 @@ $$
 
 
 
-### Step 1: Select rows where `Y=2`
+### Step 1: Select rows where $Y=2$
 
 The relevant outcomes are:
 
@@ -469,13 +469,13 @@ $$
 
 ---
 
-# 7. Difference Between `E[X\mid Y=y]` and `E[X\mid Y]`
+# 7. Difference Between $E[X\mid Y=y]$ and $E[X\mid Y]$
 
 This distinction is important.
 
-### `E[X\mid Y=y]`
+### $E[X\mid Y=y]$
 
-When a particular value of `Y` is given,
+When a particular value of $Y$ is given,
 
 
 
@@ -499,7 +499,7 @@ $$
 
 ---
 
-### `E[X\mid Y]`
+### $E[X\mid Y]$
 
 When we write
 
@@ -511,9 +511,9 @@ $$
 
 
 
-without specifying the value of `Y`, the answer depends on the value taken by `Y`.
+without specifying the value of $Y$, the answer depends on the value taken by $Y$.
 
-Therefore, `E[X\mid Y]` is itself a **function of Y**.
+Therefore, $E[X\mid Y]$ is itself a **function of Y**.
 
 For example, suppose
 
@@ -545,7 +545,7 @@ $$
 
 
 
-Thus, conditional expectation can change when the observed value of `Y` changes.
+Thus, conditional expectation can change when the observed value of $Y$ changes.
 
 ---
 
@@ -565,7 +565,7 @@ This is called the **Law of Total Expectation**.
 
 It is also known as the **Tower Property**.
 
-For a discrete random variable `Y`,
+For a discrete random variable $Y$,
 
 
 
@@ -577,7 +577,7 @@ $$
 
 ### Meaning
 
-First calculate the expected value of `X` within each group determined by `Y`.
+First calculate the expected value of $X$ within each group determined by $Y$.
 
 Then take the weighted average of those conditional expectations.
 
@@ -683,7 +683,7 @@ $$
 
 
 
-is the conditional probability density function of `X` given `Y=y`, then
+is the conditional probability density function of $X$ given $Y=y$, then
 
 
 
@@ -725,9 +725,9 @@ We will study this in detail after learning conditional PDFs.
 
 # 11. Conditional Expectation and Independence
 
-Suppose `X` and `Y` are independent.
+Suppose $X$ and $Y$ are independent.
 
-Knowing the value of `Y` gives us no additional information about `X`.
+Knowing the value of $Y$ gives us no additional information about $X$.
 
 Therefore,
 
@@ -749,11 +749,11 @@ $$
 
 
 
-for values of `y` having positive probability.
+for values of $y$ having positive probability.
 
 ### Important Idea
 
-If `X` and `Y` are independent, conditioning on `Y` does not change the expected value of `X`.
+If $X$ and $Y$ are independent, conditioning on $Y$ does not change the expected value of $X$.
 
 ---
 
@@ -792,9 +792,9 @@ $$
 
 3. After conditioning, the probabilities of the remaining possible outcomes must add up to `1`.
 4. If they do not add up to `1`, they must be normalized.
-5. `E[X\mid Y=y]` is a number for a particular value `y`.
-6. `E[X\mid Y]` is generally a function of `Y`.
-7. If `X` and `Y` are independent, then
+5. $E[X\mid Y=y]$ is a number for a particular value $y$.
+6. $E[X\mid Y]$ is generally a function of $Y$.
+7. If $X$ and $Y$ are independent, then
 
 
 
@@ -970,7 +970,7 @@ $$
 
 
 
-For discrete `Y`,
+For discrete $Y$,
 
 
 
@@ -992,7 +992,7 @@ $$
 
 ### Independence
 
-If `X` and `Y` are independent,
+If $X$ and $Y$ are independent,
 
 
 
